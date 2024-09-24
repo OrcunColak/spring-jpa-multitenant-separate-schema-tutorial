@@ -31,6 +31,7 @@ public class HibernateConfig {
     @Bean
     LocalContainerEntityManagerFactoryBean entityManagerFactory(
             DataSource dataSource,
+            // These are my classes
             MultiTenantConnectionProvider<String> multiTenantConnectionProviderImpl,
             CurrentTenantIdentifierResolver<String> currentTenantIdentifierResolverImpl
     ) {
