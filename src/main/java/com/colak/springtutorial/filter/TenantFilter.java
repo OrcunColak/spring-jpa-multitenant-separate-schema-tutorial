@@ -39,9 +39,9 @@ public class TenantFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-        HttpServletRequest req = (HttpServletRequest) request;
+        HttpServletRequest httpServletRequest = (HttpServletRequest) request;
 
-        String privateTenant = req.getHeader(PRIVATE_TENANT_HEADER);
+        String privateTenant = httpServletRequest.getHeader(PRIVATE_TENANT_HEADER);
         if (privateTenant != null) {
             TenantFilter.setCurrentTenant(privateTenant);
         }
