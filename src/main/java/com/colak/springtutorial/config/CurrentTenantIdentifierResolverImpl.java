@@ -1,6 +1,6 @@
-package com.colak.springjpamultitenantseparateschematutorial.config;
+package com.colak.springtutorial.config;
 
-import com.colak.springjpamultitenantseparateschematutorial.filter.TenantFilter;
+import com.colak.springtutorial.filter.TenantFilter;
 import org.hibernate.context.spi.CurrentTenantIdentifierResolver;
 import org.springframework.stereotype.Component;
 
@@ -8,8 +8,10 @@ import java.util.Objects;
 
 @Component
 public class CurrentTenantIdentifierResolverImpl implements CurrentTenantIdentifierResolver<String> {
+
     @Override
     public String resolveCurrentTenantIdentifier() {
+        // Retrieve the current tenant
         String tenant = TenantFilter.getCurrentTenant();
         return Objects.requireNonNullElse(tenant, "public");
     }

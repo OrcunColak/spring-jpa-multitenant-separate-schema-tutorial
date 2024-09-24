@@ -1,4 +1,4 @@
-package com.colak.springjpamultitenantseparateschematutorial.jpa;
+package com.colak.springtutorial.jpa;
 
 
 import jakarta.persistence.Entity;

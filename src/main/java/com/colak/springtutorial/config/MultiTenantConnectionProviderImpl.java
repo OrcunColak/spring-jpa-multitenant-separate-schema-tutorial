@@ -1,4 +1,4 @@
-package com.colak.springjpamultitenantseparateschematutorial.config;
+package com.colak.springtutorial.config;
 
 import org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.colak.springjpamultitenantseparateschematutorial.controller;
+package com.colak.springtutorial.controller;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

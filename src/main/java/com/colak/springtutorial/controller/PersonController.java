@@ -1,7 +1,7 @@
-package com.colak.springjpamultitenantseparateschematutorial.controller;
+package com.colak.springtutorial.controller;
 
-import com.colak.springjpamultitenantseparateschematutorial.jpa.Person;
-import com.colak.springjpamultitenantseparateschematutorial.service.PersonService;
+import com.colak.springtutorial.jpa.Person;
+import com.colak.springtutorial.service.PersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

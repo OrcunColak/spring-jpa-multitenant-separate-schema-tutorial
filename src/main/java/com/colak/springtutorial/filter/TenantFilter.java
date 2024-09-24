@@ -1,4 +1,4 @@
-package com.colak.springjpamultitenantseparateschematutorial.filter;
+package com.colak.springtutorial.filter;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;

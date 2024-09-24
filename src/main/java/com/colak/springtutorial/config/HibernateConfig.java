@@ -1,4 +1,4 @@
-package com.colak.springjpamultitenantseparateschematutorial.config;
+package com.colak.springtutorial.config;
 
 import org.hibernate.cfg.MultiTenancySettings;
 import org.hibernate.context.spi.CurrentTenantIdentifierResolver;

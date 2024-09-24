@@ -1,7 +1,7 @@
-package com.colak.springjpamultitenantseparateschematutorial.service;
+package com.colak.springtutorial.service;
 
-import com.colak.springjpamultitenantseparateschematutorial.jpa.Person;
-import com.colak.springjpamultitenantseparateschematutorial.repository.PersonRepository;
+import com.colak.springtutorial.jpa.Person;
+import com.colak.springtutorial.repository.PersonRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
